@@ -1,0 +1,38 @@
+.game-cover {
+  height: 170px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.game-cover__small {
+  height: 170px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+@media(max-width: 714px) {
+  .game-cover__small {
+    height: 100px;
+  }
+}
+
+@media(max-width: 500px) {
+  .game-cover__small {
+    height: 60px;
+  }
+}
+
+@media ( max-width: 400px) {
+  .game-cover__small {
+    height: 40px;
+  }
+}
+
+

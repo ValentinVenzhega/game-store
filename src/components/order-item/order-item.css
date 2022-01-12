@@ -1,0 +1,68 @@
+
+.order-item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.order-item__cover {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.order-item__title {
+  font-weight: bold;
+}
+
+.order-item__price {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+@media ( max-width: 714px) {
+  .order-item {
+    font-size: 18px;
+  }
+
+  .order-item__cover {
+    width: 117px;
+    margin-right: 15px;
+  }
+
+  .order-item__price {
+    min-width: 114px;
+  }
+
+  .game-item-img {
+    height: 100px;
+  }
+}
+
+@media ( max-width: 500px) {
+  .order-item {
+    font-size: 16px;
+  }
+
+  .order-item__cover {
+    width: 70px;
+  }
+
+  .game-item-img {
+    height: 60px;
+  }
+}
+
+@media ( max-width: 400px) {
+  .order-item__cover {
+    width: 60px;
+  }
+
+  .game-item-img {
+    height: 40px;
+  }
+}
+
