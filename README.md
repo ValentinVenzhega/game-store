@@ -1,3 +1,3 @@
-# Онлайн магазин игр
+# Online Game Store
 
-Здесь можно посмотреть проект https://valentinvenzhega.github.io/react-game/
+Here you can see the project https://valentinvenzhega.github.io/react-game/
