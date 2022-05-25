@@ -1,7 +1,5 @@
 # Online Game Store
 
-### Online Game Store
-
 -   Online Game Store using React and Redux-Toolkit.
 -   There is an opportunity to view the product card.
 -   Implemented adding and removing products to the cart.
